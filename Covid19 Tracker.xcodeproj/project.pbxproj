@@ -16,6 +16,7 @@
 		97815CA9263EE05B000E885B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97815CA8263EE05B000E885B /* Assets.xcassets */; };
 		97815CAC263EE05B000E885B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97815CAB263EE05B000E885B /* Preview Assets.xcassets */; };
 		97815CAF263EE05B000E885B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97815CAD263EE05B000E885B /* LaunchScreen.storyboard */; };
+		978D0AB02641296900046EDA /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978D0AAF2641296900046EDA /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		97815CAB263EE05B000E885B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		97815CAE263EE05B000E885B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		97815CB0263EE05B000E885B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		978D0AAF2641296900046EDA /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		AC27996195037D26427FDB60 /* Pods-Covid19 Tracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Covid19 Tracker.release.xcconfig"; path = "Target Support Files/Pods-Covid19 Tracker/Pods-Covid19 Tracker.release.xcconfig"; sourceTree = "<group>"; };
 		EF1AA3BF693A473B2D3DCB16 /* Pods-Covid19 Tracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Covid19 Tracker.debug.xcconfig"; path = "Target Support Files/Pods-Covid19 Tracker/Pods-Covid19 Tracker.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -79,6 +81,7 @@
 				97815CA1263EE059000E885B /* SceneDelegate.swift */,
 				97815CA3263EE059000E885B /* ContentView.swift */,
 				976EAF37263EE21D00958297 /* CovidFetchRequest.swift */,
+				978D0AAF2641296900046EDA /* Model.swift */,
 				97815CA8263EE05B000E885B /* Assets.xcassets */,
 				97815CAD263EE05B000E885B /* LaunchScreen.storyboard */,
 				97815CB0263EE05B000E885B /* Info.plist */,
@@ -222,6 +225,7 @@
 				976EAF38263EE21D00958297 /* CovidFetchRequest.swift in Sources */,
 				97815CA0263EE059000E885B /* AppDelegate.swift in Sources */,
 				97815CA2263EE059000E885B /* SceneDelegate.swift in Sources */,
+				978D0AB02641296900046EDA /* Model.swift in Sources */,
 				97815CA7263EE059000E885B /* Covid19_Tracker.xcdatamodeld in Sources */,
 				97815CA4263EE059000E885B /* ContentView.swift in Sources */,
 			);
