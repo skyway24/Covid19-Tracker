@@ -1,15 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "Custom dimensions 180x180 px (3).png",
+      "filename" : "SARS-CoV-2_without_background.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "SARS-CoV-2_without_background-1.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "SARS-CoV-2_without_background-2.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
