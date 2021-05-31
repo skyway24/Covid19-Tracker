@@ -13,18 +13,21 @@ struct CountryDetailView: View {
     
     
     var body: some View {
+
+            
+        
         VStack{
         
         VStack{
-            CountryDetailRow(number: countryData.confirmed.formatNumber(), name: "Confirmed", color: .blue).padding(.top)
-            CountryDetailRow(number: countryData.critical.formatNumber(), name: "Critical", color: .yellow)
-            CountryDetailRow(number: countryData.deaths.formatNumber(), name: "Deaths", color: .red)
-            CountryDetailRow(number: String(format: "%.2f", countryData.fatalityRate), name: "Deaths %", color: .red)
-            CountryDetailRow(number: countryData.recovered.formatNumber(), name: "Recovered", color: .green)
-            CountryDetailRow(number: String(format: "%.2f", countryData.recoveredRate), name: "Recovery %", color: .green)
+            CountryDetailRow(number: countryData.confirmed.formatNumber(), name: "Confirmed", color: "gBlue1").padding(.top)
+            CountryDetailRow(number: countryData.critical.formatNumber(), name: "Critical", color: "gYellow1")
+            CountryDetailRow(number: countryData.deaths.formatNumber(), name: "Deaths", color: "gRed1")
+            CountryDetailRow(number: String(format: "%.2f", countryData.fatalityRate), name: "Deaths %", color: "gRed1")
+            CountryDetailRow(number: countryData.recovered.formatNumber(), name: "Recovered", color: "gGreen1")
+            CountryDetailRow(number: String(format: "%.2f", countryData.recoveredRate), name: "Recovery %", color: "gGreen1")
             
         }.background(Color("cardBackground"))
-        .cornerRadius(8.0).padding()
+        .cornerRadius(12.0).padding()
             Spacer()
             
             
@@ -33,8 +36,9 @@ struct CountryDetailView: View {
             
         }
         .padding(.top, 50).navigationBarTitle(countryData.country)
+            }
     }
-}
+
 
 struct CountryDetailView_Previews: PreviewProvider {
     static var previews: some View {

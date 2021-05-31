@@ -12,6 +12,7 @@ struct ContentView: View {
     
     @ObservedObject var covidFetch = CovidFetchRequest()
     
+ 
     var body: some View {
        
         TabView{

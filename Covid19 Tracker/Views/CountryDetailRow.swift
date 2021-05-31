@@ -11,7 +11,7 @@ struct CountryDetailRow: View {
     
     var number: String = "Error"
     var name: String = "Confirmed"
-    var color: Color = .primary
+    var color: String = "gRed1"
     
     
     var body: some View {
@@ -21,7 +21,7 @@ struct CountryDetailRow: View {
             HStack{
                 Text(self.name).font(.body).padding(5)
                 Spacer()
-                Text(self.number).font(.subheadline).padding(5).foregroundColor(color)
+                Text(self.number).font(.subheadline).padding(5).foregroundColor(Color(color))
             }
             Divider()
             

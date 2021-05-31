@@ -11,7 +11,8 @@ struct TotalDataCard: View {
     
     var number: String = "Error"
     var name: String = "Confirmed"
-    var color: Color = .primary
+    var color1: String = "gRed1"
+    var color2: String = "gRed2"
     
     
     var body: some View {
@@ -25,10 +26,12 @@ struct TotalDataCard: View {
                 Text(self.name).font(.body ).padding(5).foregroundColor(.white)
                 
             }//end of vstack
-            .frame(width: geometry.size.width, height: 80, alignment: .center).background(self.color).cornerRadius(8.0)
+            .frame(width: geometry.size.width, height: 80, alignment: .center)
+            .background(LinearGradient(gradient: Gradient(colors: [Color(color1), Color(color2)]), startPoint: .leading, endPoint: .trailing))
+            .cornerRadius(20.0)
+        
             
-            
-        }// end f geometry
+        }
     
     }
 }

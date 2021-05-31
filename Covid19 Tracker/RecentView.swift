@@ -42,6 +42,7 @@ struct RecentView: View {
                 
             }
             .navigationBarTitle("Recent Data", displayMode: .inline)
+            
            .navigationBarItems(trailing:
                                 Button(action: {
                                     

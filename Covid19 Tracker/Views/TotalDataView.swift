@@ -17,16 +17,16 @@ struct TotalDataView: View {
         VStack{
             HStack{
                 
-                TotalDataCard(number: totalData.confirmed.formatNumber(), name: "Confirmed", color: .blue)
-                TotalDataCard(number: totalData.critical.formatNumber(), name: "Critical",color: .yellow)
-                TotalDataCard(number: totalData.deaths.formatNumber(), name: "Deaths",color: .red)
+                TotalDataCard(number: totalData.confirmed.formatNumber(), name: "Confirmed", color1: "gBlue1", color2: "gBlue2")
+                TotalDataCard(number: totalData.critical.formatNumber(), name: "Critical",color1: "gYellow1", color2: "gYellow2")
+                TotalDataCard(number: totalData.deaths.formatNumber(), name: "Deaths",color1: "gRed1", color2: "gRed2")
                 
             }
             HStack{
                 
-                TotalDataCard(number: String(format: "%.2f", totalData.fatalityRate), name: "Death %", color: .red)
-                TotalDataCard(number: totalData.recovered.formatNumber(), name: "Recovered",color: .green)
-                TotalDataCard(number: String(format: "%.2f", totalData.recoveredRate), name: "Recovery %",color: .green)
+                TotalDataCard(number: String(format: "%.2f", totalData.fatalityRate), name: "Death %", color1: "gRed1", color2: "gRed2")
+                TotalDataCard(number: totalData.recovered.formatNumber(), name: "Recovered",color1: "gGreen1", color2: "gGreen2")
+                TotalDataCard(number: String(format: "%.2f", totalData.recoveredRate), name: "Recovery %",color1: "gGreen1", color2: "gGreen2")
                 
             }
             
